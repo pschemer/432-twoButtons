@@ -6,14 +6,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
   <script>
     var servletURL = window.location.origin + "/hello";
+	window.onload = function () { window.location.replace(servletURL); }
   </script>
 <title>First JSP</title>
 </head>
-<%@ page import="java.util.Date" %>
-<body>
-<h2>Hello Heroku! I am JSP</h2>
-<strong>Current Time is</strong>: <%=new Date() %>
-<button onclick="window.location.assign(servletURL);"> Try the servlet </button>
 
 </body>
 </html>

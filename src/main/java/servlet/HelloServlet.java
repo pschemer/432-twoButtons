@@ -45,8 +45,8 @@ public class HelloServlet extends HttpServlet
 {
 
 // Location of servlet.
-static String Domain  = "cs.gmu.edu:8443";
-static String Path    = "/offutt/servlet/";
+static String Domain  = "twobuttons.herokuapp.com";
+static String Path    = "/servlet/";
 static String Servlet = "twoButtons";
 
 // Button labels
